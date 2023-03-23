@@ -21,6 +21,16 @@ label, input, select{
     display: block; box-sizing: border-box;
 }
 
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
 label{
     padding: 5px;
 }
