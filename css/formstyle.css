@@ -43,6 +43,14 @@ input:focus{
     background: lightyellow; border: 1px solid #eead2d; outline: none;
 }
 
+input:invalid{
+    background: lightyellow; border: 1px solid #ed4337; outline: none;
+}
+
+input:valid{
+    background: white; border: 1px solid #5cb85c; outline: none;
+}
+
 .label-50{
     width: 50%; float: left;
 }
